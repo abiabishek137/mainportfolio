@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abishek P · Portfolio</title>
+<meta name="description" content="Abishek P, Python Full Stack Developer from Nagercoil, Tamil Nadu. Django, Flask, React, MySQL and AWS.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<script>document.documentElement.className+=' js enter';setTimeout(function(){document.documentElement.classList.remove('enter')},4000);</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+<div class="wipe" aria-hidden="true"><span>abishek<b>.dev</b></span></div>
+
+<nav class="nav" aria-label="Main">
+  <div class="wrap">
+    <a class="logo" href="index.html">Abishek<span>.dev</span></a>
+    <ul>
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <section class="hero cream">
+    <div class="wrap">
+      <div>
+        <p class="kicker"><span class="dot" aria-hidden="true"></span>Nagercoil, Tamil Nadu · Full Stack trainee at IPCS Global</p>
+        <h1>Abishek P<span class="role">Python <span class="hl">Full Stack</span> Developer</span></h1>
+        <p class="lede">I build responsive web applications end to end: interfaces in HTML, CSS, JavaScript and React, backends in Django and Flask, data in MySQL, deployed on AWS.</p>
+        <div class="ctas">
+          <a class="btn primary" href="projects.html">
+            See my projects
+            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a class="btn" href="https://www.linkedin.com/in/abishek-p-355a34398" target="_blank" rel="noopener">
+            <svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M3.6 5.7H1.2V14h2.4V5.7zM2.4 1.8a1.4 1.4 0 1 0 0 2.8 1.4 1.4 0 0 0 0-2.8zM14.8 9.3c0-2.3-1.2-3.8-3.3-3.8-1.1 0-1.9.6-2.2 1.2V5.7H7V14h2.4V9.8c0-1.1.4-1.9 1.4-1.9s1.4.7 1.4 1.9V14h2.4V9.3z"/></svg>
+            LinkedIn
+          </a>
+          <button class="btn" type="button" data-copy="abiabishek137@gmail.com">
+            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><rect x="1.5" y="3" width="13" height="10" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 4l6 5 6-5" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+            <span>Copy email</span>
+          </button>
+        </div>
+      </div>
+      <div class="console" aria-label="Profile as an API response">
+        <div class="console-tabs" role="tablist" aria-label="Endpoints">
+          <button role="tab" id="tab-about" aria-selected="true" data-ep="about"><span class="verb">GET</span>/abishek</button>
+          <button role="tab" id="tab-stack" aria-selected="false" data-ep="stack"><span class="verb">GET</span>/stack</button>
+          <button role="tab" id="tab-projects" aria-selected="false" data-ep="projects"><span class="verb">GET</span>/projects</button>
+        </div>
+        <div class="req">$ curl <b id="req-url">localhost:8000/api/abishek</b></div>
+        <div class="status">HTTP/1.1 <span class="okc">200 OK</span> · application/json · <span id="ms">18</span>ms</div>
+        <pre id="json" role="tabpanel" aria-labelledby="tab-about"></pre>
+      </div>
+    </div>
+  </section>
+
+  <section class="band blue">
+    <div class="wrap about">
+      <div class="sec-head"><span class="path">/about</span><h2>Frontend to database, then to the cloud.</h2></div>
+      <div class="body-grid">
+        <div class="spacer"></div>
+        <div>
+          <p>I'm a Python Full Stack Developer with an Electronics and Communication Engineering degree from Ponjesly College of Engineering. I design and build web applications that are responsive and easy to use, with working frontends, backend logic and database integration behind them.</p>
+          <p>My training covers Python, HTML, CSS, JavaScript, jQuery, Bootstrap, React, Django, Flask, MySQL and REST APIs, and I've deployed and hosted applications on AWS. I enjoy debugging, pick up new tools quickly, and like building software that solves real problems for real people.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band cream">
+    <div class="wrap">
+      <div class="sec-head"><span class="path">/explore</span><h2>Take a look around</h2></div>
+      <div class="explore">
+        <a href="experience.html"><span class="path">/experience</span><h3>Experience</h3><p>Full stack training and internships in IoT and web development.</p><span class="go">View experience &rarr;</span></a>
+        <a href="projects.html"><span class="path">/projects</span><h3>Projects</h3><p>SeedSwap, MediTrack and CRP: three web apps built with HTML, CSS, JavaScript and Bootstrap.</p><span class="go">See projects &rarr;</span></a>
+        <a href="skills.html"><span class="path">/skills</span><h3>Skills</h3><p>Python, Django, Flask, React, MySQL, AWS and the tools I use daily.</p><span class="go">See skills &rarr;</span></a>
+        <a href="contact.html"><span class="path">/contact</span><h3>Contact</h3><p>Looking for Python full stack and web development roles.</p><span class="go">Get in touch &rarr;</span></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap"><span>&copy; 2026 Abishek P</span><span>Built with HTML, CSS &amp; JavaScript</span></div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
